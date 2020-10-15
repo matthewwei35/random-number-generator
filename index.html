@@ -14,45 +14,53 @@
                 <li><a href="#random-number-generator">Random Number Generator</a></li>
                 <li><a href="#about">About</a></li>
             </ul>
-        <nav>
+        </nav>
 
         <section id="banner">
             <header>
-                <h1>RNG<h1>
+                <h2>RNG</h2>
                 <p>That's pretty random.</p>
             </header>
         </section>
 
         <section id="random-number-generator">
+            <header>
+                <h2>Random Number Generator</h2>
+            </header>
             <div>
                 <form>
                     <fieldset>
-                        <label>Minimum</label>
-                        <input id="minimum" type="number">
-                        <label>Maximum</label>
-                        <input id="maximum" type="number">
+                        <label>
+                            Minimum
+                            <input id="minimum" type="number">
+                        </label>
+                        <label>
+                            Maximum
+                            <input id="maximum" type="number">
+                        </label>
                     </fieldset>
                 </form>
+                <button type="button">Generate</button>
                 <div id="display">0</div>
             </div>
         </section>
 
         <section id="about">
             <header>
-                <h2>What is RNG?</h2>
+                <h2>What is a Random Number Generator?</h2>
             </header>
             <ul>
                 <li class="card">
-                    <img src="./images/dice.jpg">
-                    <p></p>
+                    <img src="./images/dice.jpg" width="400" alt="A pair of dice on wood table">
+                    <p><abbr title="Random Number Generator">RNG</abbr> is a process in which a computer generates a number or symbol that cannot be reasonably predicted.</p>
                 </li>
                 <li class="card">
-                    <img src="./images/random.jpg">
-                    <p></p>
+                    <img src="./images/random.jpg" width="400" alt="Random noise">
+                    <p>In this calculator, we're using <abbr title="pseudo-random number generators">PRNGS</abbr>, meaning that this calculator isn't truly random as it only produces a sequence of numbers that look random.</p>
                 </li>
                 <li class="card">
-                    <img src="./images/code.jpeg">
-                    <p></p>
+                    <img src="./images/code.jpeg" width="400" alt="Lines of code jumbled together randomly">
+                    <p>If you want a truly random RNG, use <a href="https://www.random.org/">random.org</a> as it uses atmospheric noise, which in most cases is better than PRNGS.</p>
                 </li>
             </ul>
         </section>
