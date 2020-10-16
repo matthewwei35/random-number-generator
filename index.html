@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css2?family=Commissioner&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
     <body>
 
@@ -19,12 +20,13 @@
 
         <section id="banner">
             <header>
-                <h2>RNG</h2>
-                <p>That's Pretty Random</p>
+                <h2 data-aos="fade-right" data-aos-once="true" data-aos-duration="1000">RNG</h2>
+                <p data-aos="fade-left" data-aos-once="true" data-aos-delay="1000" data-aos-duration="1000">That's Pretty Random</p>
             </header>
+            <div class="arrow-down"></div>
         </section>
 
-        <section id="random-number-generator">
+        <section id="random-number-generator" data-aos="fade-up" data-aos-once="true" data-aos-delay="400" data-aos-duration="1100">
             <header>
                 <h2>Random Number Generator</h2>
             </header>
@@ -44,19 +46,18 @@
 
         <section id="about">
             <header>
-                <h2>What is a Random Number Generator?</h2>
+                <h2 data-aos="fade-right" data-aos-once="true" data-aos-duration="500">What is a Random Number Generator?</h2>
             </header>
             <ul>
-                <li class="card">
+                <li class="card" data-aos="zoom-out-right" data-aos-once="true" data-aos-duration="1000" data-aos-delay="500">
                     <img src="./images/dice.jpg" width="400" alt="A pair of dice on wood table">
                     <p><abbr title="Random Number Generator">RNG</abbr> is a process in which a computer generates a number or symbol that cannot be reasonably predicted.</p>
                 </li>
-                <li class="card">
-                    
+                <li class="card" data-aos="zoom-out-up" data-aos-once="true" data-aos-duration="1000" data-aos-delay="100">
                     <img src="./images/code.jpeg" width="400" alt="Lines of code jumbled together randomly">
                     <p>In this calculator, we're using <abbr title="pseudo-random number generators">PRNGS</abbr>, meaning that this calculator isn't truly random as it only produces a sequence of numbers that look random.</p>
                 </li>
-                <li class="card">
+                <li class="card" data-aos="zoom-out-left" data-aos-once="true" data-aos-duration="1000" data-aos-delay="1000">
                     <img src="./images/random.jpg" width="400" alt="Random noise">
                     <p>If you want a truly random RNG, use <a href="https://www.random.org/">random.org</a> as it uses atmospheric noise, which in most cases is better than PRNGS.</p>
                 </li>
@@ -66,6 +67,8 @@
         <footer>
             <small>Copyright&copy; Matthew Wei 2020.</small>
         </footer>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
         <script src="./script.js"></script>
     </body>

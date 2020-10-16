@@ -11,7 +11,7 @@ body > section {
     min-height: 100vh;
 }
 
-#random-number-generator, #about {
+#about {
     min-height: 90vh;
 }
 
@@ -64,6 +64,10 @@ nav li {
     color: #000000;
 }
 
+#banner h2 {
+    margin: 2rem 0 1rem 0;
+}
+
 #banner p {
     padding: 1rem;
     background-color: #FCAF3B;
@@ -80,6 +84,7 @@ nav li {
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
+    background-attachment: fixed;
 }
 
 #random-number-generator, #display {
@@ -149,4 +154,8 @@ form button {
 
 #about h2 {
     padding: 1em 3em;
+}
+
+footer {
+    padding: 1em;
 }
