@@ -20,7 +20,7 @@
         <section id="banner">
             <header>
                 <h2>RNG</h2>
-                <p>That's pretty random.</p>
+                <p>That's Pretty Random</p>
             </header>
         </section>
 
@@ -31,17 +31,13 @@
             <div>
                 <form>
                     <fieldset>
-                        <label>
-                            Minimum
-                            <input id="minimum" type="number">
-                        </label>
-                        <label>
-                            Maximum
-                            <input id="maximum" type="number">
-                        </label>
+                        <label for="minimum">Minimum</label>
+                        <input id="minimum" type="number">
+                        <label for="maximum">Maximum</label>
+                        <input id="maximum" type="number">
                     </fieldset>
+                    <button type="button">Generate</button>
                 </form>
-                <button type="button">Generate</button>
                 <div id="display">0</div>
             </div>
         </section>
@@ -56,11 +52,12 @@
                     <p><abbr title="Random Number Generator">RNG</abbr> is a process in which a computer generates a number or symbol that cannot be reasonably predicted.</p>
                 </li>
                 <li class="card">
-                    <img src="./images/random.jpg" width="400" alt="Random noise">
+                    
+                    <img src="./images/code.jpeg" width="400" alt="Lines of code jumbled together randomly">
                     <p>In this calculator, we're using <abbr title="pseudo-random number generators">PRNGS</abbr>, meaning that this calculator isn't truly random as it only produces a sequence of numbers that look random.</p>
                 </li>
                 <li class="card">
-                    <img src="./images/code.jpeg" width="400" alt="Lines of code jumbled together randomly">
+                    <img src="./images/random.jpg" width="400" alt="Random noise">
                     <p>If you want a truly random RNG, use <a href="https://www.random.org/">random.org</a> as it uses atmospheric noise, which in most cases is better than PRNGS.</p>
                 </li>
             </ul>

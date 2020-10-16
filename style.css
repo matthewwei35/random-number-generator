@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+h2 {
+    padding: 1em 3em;
+}
+
 nav, body > section {
     overflow: auto;
 }
@@ -11,9 +15,14 @@ body > section {
     min-height: 100vh;
 }
 
+#random-number-generator, #about {
+    min-height: 90vh;
+}
+
 #nav {
     display: flex;
     justify-content: space-between;
+    background-color: #f1f1f4;
 }
 
 nav > h1 {
@@ -52,7 +61,7 @@ nav li {
     justify-content: center;
     align-items: center;
     font-size: 4em;
-    background-color: #ffffff;
+    background-color: #f1f1f4;
 }
 
 #banner h2, #banner p {
@@ -60,7 +69,7 @@ nav li {
 }
 
 #banner p {
-    padding: 0.5rem;
+    padding: 1rem;
     background-color: #FCAF3B;
 }
 
@@ -68,4 +77,75 @@ nav li {
     position: relative;
     right: 240px;
     top: 80px;
+}
+
+#random-number-generator {
+    background-image: url(./images/mountain.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+#random-number-generator, #display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#display{
+    font-size: 30px;
+}
+
+#random-number-generator div {
+    padding: 2em 4em;
+    border-radius: 0.5em;
+    background-color: #f1f1f4;
+}
+
+#random-number-generator fieldset {
+    border: none;
+}
+
+#random-number-generator label {
+    display: flex;
+    padding: 1em 0;
+}
+
+#random-number-generator input {
+    width: 200px;
+    padding: 0.5em 1em;
+}
+
+form button {
+    font-family: 'Commissioner', sans-serif;
+    font-weight: lighter;
+    width: auto;
+    font-size: 1em;
+    margin: 2em 0 2em 145px;
+    padding: 0.5em 1em;
+    background-color: #FCAF3B;
+    border: none;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 1em;
+    margin: 1em;
+    background-color: #eee;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.30);
+}
+
+.card img {
+    width: 100%;
+}
+
+#about ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
