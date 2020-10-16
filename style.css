@@ -80,7 +80,6 @@ nav li {
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
-    background-attachment: fixed;
 }
 
 #random-number-generator, #display {
@@ -90,14 +89,11 @@ nav li {
     justify-content: center;
 }
 
-#display{
-    font-size: 30px;
-}
-
-#random-number-generator div {
+#random-number-generator #form {
     padding: 2em 4em;
     border-radius: 0.5em;
-    background-color: #f1f1f4;
+    background-color: rgb(241, 241, 244, 0.7);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.30);
 }
 
 #random-number-generator fieldset {
@@ -123,6 +119,10 @@ form button {
     padding: 0.5em 1em;
     background-color: #FCAF3B;
     border: none;
+}
+
+#display{
+    font-size: 30px;
 }
 
 .card {
