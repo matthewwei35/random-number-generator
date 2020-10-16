@@ -3,10 +3,6 @@ body {
     margin: 0;
 }
 
-h2 {
-    padding: 1em 3em;
-}
-
 nav, body > section {
     overflow: auto;
 }
@@ -84,6 +80,7 @@ nav li {
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
+    background-attachment: fixed;
 }
 
 #random-number-generator, #display {
@@ -148,4 +145,8 @@ form button {
     padding: 0;
     display: flex;
     justify-content: center;
+}
+
+#about h2 {
+    padding: 1em 3em;
 }
