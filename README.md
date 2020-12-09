@@ -1,8 +1,11 @@
 # Intensive 1.1 - Random Number Generator
 
 ## Description
-A random number generator website using HTML, CSS, and JavaScript. It is not yet responsive but I might fix this in a future update.
+A random number generator website using HTML, CSS, and JavaScript.
 ![](screenshots/rng-demo.gif)
+
+#### WORK IN PROGRESS
+* Plans to make it responsive.
 
 #### Project Motivation
 I wanted to build a random number generator because I utilize them when I do not know what to choose in a given selection. The reason for this is because of overchoice. Overchoice is a cognitive impairment in which people have a difficult time making a decision when faced with many options. My goal is to use the skills I learned in my Term 1 class and to create something that I can show to my peers.
