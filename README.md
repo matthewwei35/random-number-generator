@@ -1,4 +1,4 @@
-# Intensive 1.1 - Random Number Generator
+# Random Number Generator
 
 ## Description
 A random number generator website using HTML, CSS, and JavaScript.
