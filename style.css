@@ -124,7 +124,18 @@ form button {
     padding: 0.5em 1em;
     background-color: #FCAF3B;
     border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.30);
 }
+
+form button:hover {
+    background-color: #FFA31A;
+}
+
+form button:active {
+    background-color: #FFA31A;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.50);
+    transform: translateY(1px);
+  }
 
 #display{
     font-size: 30px;
